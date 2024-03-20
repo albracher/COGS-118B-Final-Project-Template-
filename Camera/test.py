@@ -11,10 +11,10 @@ detector = HandDetector(maxHands=1)
 
 offset = 20
 imgSize = 300
-classifier = Classifier("Model/keras_model.h5", "Model/labels.text")
+classifier = Classifier("Model/keras_model.h5", "Model/labels.txt")
 
 
-labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y']
 
 
 while True:
