@@ -38,12 +38,11 @@ while True:
             hGap = math.ceil((imgSize - hCal)/2) # Gap to push forward to center image
             imgWhite[hGap:hCal + hGap, :] = imgResize #Overlay image on top of white Img
 
-        cv2.imshow("ImageCrop",imgCrop)
         cv2.imshow("ImageWhite",imgWhite)
 
 
 
-    cv2.imshow("Image", img)
+    #cv2.imshow("Image", img)
     key = cv2.waitKey(1)
     
     if key == ord("s"):
