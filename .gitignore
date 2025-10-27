@@ -7,3 +7,5 @@ Camera/Data/[A-Z]/
 .idea/vcs.xml
 AP_WritingSample_ASL_Proposal.ipynb
 FinalProject_ASL_Classification.ipynb.tmp
+exportToHTML/AP_WritingSample_ASL_Proposal.ipynb.html
+AP_WritingSample_ASL_Proposal.pdf
